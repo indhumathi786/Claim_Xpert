@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    tools:context=".ClaimDetailsActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Claim Details"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Claim Type"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <RadioGroup
+            android:id="@+id/radioGroupClaimType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp">
+
+            <RadioButton
+                android:id="@+id/radioButtonInPatient"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="In-Patient" />
+
+            <RadioButton
+                android:id="@+id/radioButtonPrePostHospitalization"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pre/Post-Hospitalization" />
+        </RadioGroup>
+
+        <CheckBox
+            android:id="@+id/checkBoxDomiciliaryHospitalization"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Claim for Domiciliary Hospitalization"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Lump Sum Details"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp"
+            android:visibility="gone" />
+
+        <EditText
+            android:id="@+id/editTextLumpsumDetails"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Details of Lump sum/cash benefit claimed (if applicable)"
+            android:inputType="textMultiLine"
+            android:visibility="gone"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Details of Treatment Expenses Claimed"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:id="@+id/treatmentExpensesLayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Hospitalization Expenses"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/editTextHospitalizationExpenses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Hospitalization Expenses"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pre-Hospitalization Expenses"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/editTextPreHospitalizationExpenses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pre-Hospitalization Expenses"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Post-Hospitalization Expenses"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/editTextPostHospitalizationExpenses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Post-Hospitalization Expenses"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Ambulance Charges"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/editTextAmbulanceCharges"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Ambulance Charges"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Pharmacy Bills"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/editTextPharmacyBills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Pharmacy Bills"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Doctor Consultation Bills"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/editTextDoctorConsultationBills"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Doctor Consultation Bills"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Investigation / Diagnostic Reports"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/editTextInvestigationReports"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Investigation / Diagnostic Reports"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="8dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Other Expenses"
+                android:textSize="16sp"
+                android:layout_marginBottom="8dp" />
+
+            <EditText
+                android:id="@+id/editTextOthersExpenses"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Others"
+                android:inputType="numberDecimal"
+                android:layout_marginBottom="16dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="end">
+
+            <Button
+                android:id="@+id/buttonPrevious"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Previous"
+                android:layout_marginEnd="8dp" />
+
+            <Button
+                android:id="@+id/buttonNext"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Next" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

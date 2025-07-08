@@ -1,0 +1,352 @@
+[
+ {
+   "PolicyNumber": "POL10001",
+   "PolicyHolderName": "Aarav Mehta",
+   "InsuranceCompany": "ICICI Lombard",
+   "SumInsured": 500000,
+   "RoomRentLimit": 5000
+ },
+ {
+   "PolicyNumber": "POL10002",
+   "PolicyHolderName": "Neha Verma",
+   "InsuranceCompany": "HDFC Ergo",
+   "SumInsured": 300000,
+   "RoomRentLimit": 3000
+ },
+ {
+   "PolicyNumber": "POL10003",
+   "PolicyHolderName": "Rajesh Kumar",
+   "InsuranceCompany": "Star Health",
+   "SumInsured": 400000,
+   "RoomRentLimit": 3500
+ },
+ {
+   "PolicyNumber": "POL10004",
+   "PolicyHolderName": "Sneha Reddy",
+   "InsuranceCompany": "Niva Bupa",
+   "SumInsured": 600000,
+   "RoomRentLimit": 6000
+ },
+ {
+   "PolicyNumber": "POL10005",
+   "PolicyHolderName": "Anil Desai",
+   "InsuranceCompany": "Religare",
+   "SumInsured": 250000,
+   "RoomRentLimit": 2000
+ },
+ {
+   "PolicyNumber": "POL10006",
+   "PolicyHolderName": "Preeti Sharma",
+   "InsuranceCompany": "New India Assurance",
+   "SumInsured": 700000,
+   "RoomRentLimit": 7000
+ },
+ {
+   "PolicyNumber": "POL10007",
+   "PolicyHolderName": "Vikram Joshi",
+   "InsuranceCompany": "Bajaj Allianz",
+   "SumInsured": 350000,
+   "RoomRentLimit": 3000
+ },
+ {
+   "PolicyNumber": "POL10008",
+   "PolicyHolderName": "Kiran Patel",
+   "InsuranceCompany": "Tata AIG",
+   "SumInsured": 800000,
+   "RoomRentLimit": 8000
+ },
+ {
+   "PolicyNumber": "POL10009",
+   "PolicyHolderName": "Deepa Nair",
+   "InsuranceCompany": "ICICI Lombard",
+   "SumInsured": 450000,
+   "RoomRentLimit": 4000
+ },
+ {
+   "PolicyNumber": "POL10010",
+   "PolicyHolderName": "Rohan Gupta",
+   "InsuranceCompany": "Star Health",
+   "SumInsured": 550000,
+   "RoomRentLimit": 5500
+ },
+ {
+   "PolicyNumber": "POL10011",
+   "PolicyHolderName": "Shruti Rao",
+   "InsuranceCompany": "Niva Bupa",
+   "SumInsured": 600000,
+   "RoomRentLimit": 6000
+ },
+ {
+   "PolicyNumber": "POL10012",
+   "PolicyHolderName": "Manish Tiwari",
+   "InsuranceCompany": "HDFC Ergo",
+   "SumInsured": 400000,
+   "RoomRentLimit": 3500
+ },
+ {
+   "PolicyNumber": "POL10013",
+   "PolicyHolderName": "Reena Das",
+   "InsuranceCompany": "Religare",
+   "SumInsured": 300000,
+   "RoomRentLimit": 2500
+ },
+ {
+   "PolicyNumber": "POL10014",
+   "PolicyHolderName": "Siddharth Roy",
+   "InsuranceCompany": "Bajaj Allianz",
+   "SumInsured": 500000,
+   "RoomRentLimit": 4500
+ },
+ {
+   "PolicyNumber": "POL10015",
+   "PolicyHolderName": "Divya Kapoor",
+   "InsuranceCompany": "Tata AIG",
+   "SumInsured": 600000,
+   "RoomRentLimit": 6000
+ },
+ {
+   "PolicyNumber": "POL10016",
+   "PolicyHolderName": "Arjun Yadav",
+   "InsuranceCompany": "ICICI Lombard",
+   "SumInsured": 250000,
+   "RoomRentLimit": 2000
+ },
+ {
+   "PolicyNumber": "POL10017",
+   "PolicyHolderName": "Priya Nair",
+   "InsuranceCompany": "New India Assurance",
+   "SumInsured": 750000,
+   "RoomRentLimit": 7000
+ },
+ {
+   "PolicyNumber": "POL10018",
+   "PolicyHolderName": "Amitabh Jain",
+   "InsuranceCompany": "Star Health",
+   "SumInsured": 800000,
+   "RoomRentLimit": 8000
+ },
+ {
+   "PolicyNumber": "POL10019",
+   "PolicyHolderName": "Kavya Sharma",
+   "InsuranceCompany": "Niva Bupa",
+   "SumInsured": 900000,
+   "RoomRentLimit": 8500
+ },
+ {
+   "PolicyNumber": "POL10020",
+   "PolicyHolderName": "Rakesh Bhandari",
+   "InsuranceCompany": "Religare",
+   "SumInsured": 350000,
+   "RoomRentLimit": 3000
+ },
+ {
+   "PolicyNumber": "POL10021",
+   "PolicyHolderName": "Nisha Thomas",
+   "InsuranceCompany": "Bajaj Allianz",
+   "SumInsured": 450000,
+   "RoomRentLimit": 4000
+ },
+ {
+   "PolicyNumber": "POL10022",
+   "PolicyHolderName": "Devansh Shah",
+   "InsuranceCompany": "HDFC Ergo",
+   "SumInsured": 500000,
+   "RoomRentLimit": 4500
+ },
+ {
+   "PolicyNumber": "POL10023",
+   "PolicyHolderName": "Pooja Chawla",
+   "InsuranceCompany": "Tata AIG",
+   "SumInsured": 600000,
+   "RoomRentLimit": 5000
+ },
+ {
+   "PolicyNumber": "POL10024",
+   "PolicyHolderName": "Karan Sinha",
+   "InsuranceCompany": "Star Health",
+   "SumInsured": 300000,
+   "RoomRentLimit": 2500
+ },
+ {
+   "PolicyNumber": "POL10025",
+   "PolicyHolderName": "Anita Iyer",
+   "InsuranceCompany": "Niva Bupa",
+   "SumInsured": 650000,
+   "RoomRentLimit": 6000
+ },
+ {
+   "PolicyNumber": "POL10026",
+   "PolicyHolderName": "Varun Bhatt",
+   "InsuranceCompany": "ICICI Lombard",
+   "SumInsured": 750000,
+   "RoomRentLimit": 7000
+ },
+ {
+   "PolicyNumber": "POL10027",
+   "PolicyHolderName": "Meena Kumari",
+   "InsuranceCompany": "Religare",
+   "SumInsured": 250000,
+   "RoomRentLimit": 2000
+ },
+ {
+   "PolicyNumber": "POL10028",
+   "PolicyHolderName": "Harsh Malhotra",
+   "InsuranceCompany": "New India Assurance",
+   "SumInsured": 500000,
+   "RoomRentLimit": 4500
+ },
+ {
+   "PolicyNumber": "POL10029",
+   "PolicyHolderName": "Ritika Shah",
+   "InsuranceCompany": "HDFC Ergo",
+   "SumInsured": 600000,
+   "RoomRentLimit": 6000
+ },
+ {
+   "PolicyNumber": "POL10030",
+   "PolicyHolderName": "Suresh Raina",
+   "InsuranceCompany": "Bajaj Allianz",
+   "SumInsured": 400000,
+   "RoomRentLimit": 3500
+ },
+ {
+   "PolicyNumber": "POL10031",
+   "PolicyHolderName": "Sunita Menon",
+   "InsuranceCompany": "Tata AIG",
+   "SumInsured": 550000,
+   "RoomRentLimit": 5000
+ },
+ {
+   "PolicyNumber": "POL10032",
+   "PolicyHolderName": "Aryan Kapoor",
+   "InsuranceCompany": "Star Health",
+   "SumInsured": 300000,
+   "RoomRentLimit": 2500
+ },
+ {
+   "PolicyNumber": "POL10033",
+   "PolicyHolderName": "Tanvi Shetty",
+   "InsuranceCompany": "Niva Bupa",
+   "SumInsured": 900000,
+   "RoomRentLimit": 8500
+ },
+ {
+   "PolicyNumber": "POL10034",
+   "PolicyHolderName": "Naveen Agarwal",
+   "InsuranceCompany": "ICICI Lombard",
+   "SumInsured": 800000,
+   "RoomRentLimit": 8000
+ },
+ {
+   "PolicyNumber": "POL10035",
+   "PolicyHolderName": "Isha Sood",
+   "InsuranceCompany": "Religare",
+   "SumInsured": 350000,
+   "RoomRentLimit": 3000
+ },
+ {
+   "PolicyNumber": "POL10036",
+   "PolicyHolderName": "Aditya Khanna",
+   "InsuranceCompany": "HDFC Ergo",
+   "SumInsured": 600000,
+   "RoomRentLimit": 5500
+ },
+ {
+   "PolicyNumber": "POL10037",
+   "PolicyHolderName": "Radhika Das",
+   "InsuranceCompany": "New India Assurance",
+   "SumInsured": 500000,
+   "RoomRentLimit": 4500
+ },
+ {
+   "PolicyNumber": "POL10038",
+   "PolicyHolderName": "Parth Tripathi",
+   "InsuranceCompany": "Bajaj Allianz",
+   "SumInsured": 700000,
+   "RoomRentLimit": 7000
+ },
+ {
+   "PolicyNumber": "POL10039",
+   "PolicyHolderName": "Mansi Goyal",
+   "InsuranceCompany": "Tata AIG",
+   "SumInsured": 450000,
+   "RoomRentLimit": 4000
+ },
+ {
+   "PolicyNumber": "POL10040",
+   "PolicyHolderName": "Sameer Khan",
+   "InsuranceCompany": "Star Health",
+   "SumInsured": 250000,
+   "RoomRentLimit": 2000
+ },
+ {
+   "PolicyNumber": "POL10041",
+   "PolicyHolderName": "Geeta Pillai",
+   "InsuranceCompany": "Niva Bupa",
+   "SumInsured": 800000,
+   "RoomRentLimit": 7500
+ },
+ {
+   "PolicyNumber": "POL10042",
+   "PolicyHolderName": "Armaan Singh",
+   "InsuranceCompany": "ICICI Lombard",
+   "SumInsured": 600000,
+   "RoomRentLimit": 6000
+ },
+ {
+   "PolicyNumber": "POL10043",
+   "PolicyHolderName": "Nandini Dutta",
+   "InsuranceCompany": "HDFC Ergo",
+   "SumInsured": 300000,
+   "RoomRentLimit": 2500
+ },
+ {
+   "PolicyNumber": "POL10044",
+   "PolicyHolderName": "Ajay Bansal",
+   "InsuranceCompany": "Bajaj Allianz",
+   "SumInsured": 400000,
+   "RoomRentLimit": 3500
+ },
+ {
+   "PolicyNumber": "POL10045",
+   "PolicyHolderName": "Sanjana Rao",
+   "InsuranceCompany": "Star Health",
+   "SumInsured": 500000,
+   "RoomRentLimit": 5000
+ },
+ {
+   "PolicyNumber": "POL10046",
+   "PolicyHolderName": "Vikas Nair",
+   "InsuranceCompany": "New India Assurance",
+   "SumInsured": 600000,
+   "RoomRentLimit": 6000
+ },
+ {
+   "PolicyNumber": "POL10047",
+   "PolicyHolderName": "Neeraj Thakur",
+   "InsuranceCompany": "Religare",
+   "SumInsured": 700000,
+   "RoomRentLimit": 6500
+ },
+ {
+   "PolicyNumber": "POL10048",
+   "PolicyHolderName": "Kritika Bose",
+   "InsuranceCompany": "Tata AIG",
+   "SumInsured": 500000,
+   "RoomRentLimit": 4500
+ },
+ {
+   "PolicyNumber": "POL10049",
+   "PolicyHolderName": "Om Prakash",
+   "InsuranceCompany": "Niva Bupa",
+   "SumInsured": 400000,
+   "RoomRentLimit": 3500
+ },
+ {
+   "PolicyNumber": "POL10050",
+   "PolicyHolderName": "Lavanya Iyer",
+   "InsuranceCompany": "HDFC Ergo",
+   "SumInsured": 750000,
+   "RoomRentLimit": 7000
+ }
+]

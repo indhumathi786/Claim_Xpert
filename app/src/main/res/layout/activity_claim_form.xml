@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Insurance Claim Form"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Policy Details"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textViewPolicyNumber"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Policy Number: "
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:id="@+id/textViewPolicyHolderName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Policy Holder Name: "
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Claim Details"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="8dp" />
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hospital Name">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextHospitalName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="text" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Date of Admission (YYYY-MM-DD)"
+            android:layout_marginTop="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextDateOfAdmission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="date" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Reason for Admission"
+            android:layout_marginTop="8dp">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/editTextReasonForAdmission"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:inputType="textMultiLine" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Documents"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/buttonUploadHospitalBill"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Hospital Bill" />
+
+        <TextView
+            android:id="@+id/textViewHospitalBillStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="No file selected" />
+
+        <Button
+            android:id="@+id/buttonUploadDischargeSummary"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Upload Discharge Summary"
+            android:layout_marginTop="8dp" />
+
+        <TextView
+            android:id="@+id/textViewDischargeSummaryStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:text="No file selected" />
+
+        <Button
+            android:id="@+id/buttonSubmitClaim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Submit Claim"
+            android:layout_marginTop="24dp" />
+
+    </LinearLayout>
+</ScrollView>

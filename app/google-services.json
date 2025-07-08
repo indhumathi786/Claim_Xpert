@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "678030673221",
+    "project_id": "claimxpert-508d6",
+    "storage_bucket": "claimxpert-508d6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:678030673221:android:7b451abc6274e9795cea2c",
+        "android_client_info": {
+          "package_name": "com.java.myapplication"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAepH5x1sYNRml9DuG09SIPJ9QX-MT5GIw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
