@@ -22,6 +22,23 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:text="Claim Date"
+            android:textSize="16sp"
+            android:layout_marginBottom="8dp" />
+
+        <EditText
+            android:id="@+id/editTextClaimDate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Select Claim Date (e.g., DD/MM/YYYY)"
+            android:inputType="date"
+            android:focusable="false"
+            android:clickable="true"
+            android:drawableEnd="@android:drawable/ic_menu_today"
+            android:layout_marginBottom="16dp" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
             android:text="Claim Type"
             android:textSize="16sp"
             android:layout_marginBottom="8dp" />
@@ -92,7 +109,7 @@
 
             <EditText
                 android:id="@+id/editTextHospitalizationExpenses"
-                android:layout_width="match_parent"
+                android:layout_width="match_content"
                 android:layout_height="wrap_content"
                 android:hint="Hospitalization Expenses"
                 android:inputType="numberDecimal"
@@ -205,6 +222,41 @@
 
         </LinearLayout>
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Attach Supporting Documents"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="8dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center_vertical"
+            android:layout_marginBottom="16dp">
+
+            <Button
+                android:id="@+id/buttonAttachDocument"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Attach File"
+                android:drawableStart="@android:drawable/ic_menu_upload"
+                android:drawablePadding="8dp"
+                android:layout_marginEnd="8dp"/>
+
+            <TextView
+                android:id="@+id/textViewAttachedFileName"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:text="No file selected"
+                android:textColor="@android:color/darker_gray"
+                android:singleLine="true"
+                android:ellipsize="middle" />
+        </LinearLayout>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
